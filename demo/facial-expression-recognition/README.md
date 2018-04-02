@@ -1,6 +1,6 @@
 Facial expression recognition
 -------
 
-![angry](./angry.jpg)
+![angry](./angry.JPG)
 
-Choose the face by openCV and recognize expression by CNN
+> Choose the face by openCV and recognize expression by CNN
