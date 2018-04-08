@@ -1,4 +1,4 @@
-杨晨的一周报告
+<center>杨晨的一周报告</center>
 --------
 > * 完成毕设情感分类的demo运用openCV人脸识别并运用CNN对人脸情感分类[链接](./demo/facial-expression-recognition/)
 ![angry](./demo/facial-expression-recognition/angry.JPG)
