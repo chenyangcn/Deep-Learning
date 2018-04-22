@@ -1,10 +1,22 @@
 杨晨的一周报告
 --------
-1. 在fer2013数据集上使用VGG-13并用采用crop对训练数据进行增强，测试集上的准确率达到81%
-2. 阅读了webvision的数据使用文档，了解了baseline的框架。并完成了图片数据加载部分的代码。标签的加载还没完成
-3. 阅读了一遍：A Survey of Model Compression and Acceleration for Deep Neural Networks。对于里面的
+<<<<<<< HEAD
+1. 完成了webvision的baseline，但是后台运行时evulate方法总有BUG，准备放到前台试试
+2. 完成阅读：A Survey of Model Compression and Acceleration for Deep Neural Networks
+3. 从网上学习了model compression的一些知识包括
+> * 基于核稀疏化的方法：都是在训练过程中，对参数的更新进行限制，使其趋向于稀疏，或者在训练的过程中将不重要的连接截断掉
+> * 基于模型裁剪的方法：挑选出模型中不重要的参数，将其剔除。而如何找到一个有效的对参数重要性的评价手段，是研究方向点
+> * 基于教师——学生网络的方法：教师网络给学生网络指引以训练
+> * 基于精细模型设计的方法：使用小卷积核组合来代替大的卷积核来达到压缩和加速的效果
+> * 并了解了四种方法最近相关论文的知识概要
+=======
+* 在fer2013数据集上使用VGG-13并用采用crop对训练数据进行增强，测试集上的准确率达到81%
+* 阅读了webvision的数据使用文档，了解了baseline的框架。并完成了图片数据加载部分的代码。标签的加载还没完成
+* 阅读了一遍：A Survey of Model Compression and Acceleration for Deep Neural Networks。对于里面的
 > * 1.参数修剪和共享
 > * 2.低秩分解和稀疏性
 > * 3.迁移/压缩卷积滤波器
 > * 4.知识精炼
+
 > 四种方法中有很多地方没有理解，准备学习下里面提到的知识再读一遍
+>>>>>>> d0a9315fde9566560518923988d42e59fa01d495
