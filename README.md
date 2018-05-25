@@ -1,4 +1,3 @@
 # Machine-Learning
-> All about machine learning
-> 
+> The process I study in deep learning  
 > just for interesting
