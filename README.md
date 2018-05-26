@@ -1,3 +1,3 @@
-# Machine-Learning
-> The process I study in deep learning  
+# Deep-Learning
+> The process I studying in deep learning  
 > just for interesting
