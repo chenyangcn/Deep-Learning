@@ -1,5 +1,6 @@
 杨晨的一周报告
 --------
-1. 实现了cidar10的精炼模型但是效果不是很好
-2. 完成了inceptionv4和resnext101的pytorch代码，并解决了loss收敛过慢的问题（修改了数据加载的部分，数据转化和学习率衰减的部分）。现在的loss衰减比较正常
-3. 因为下周四要交论文，这周一直忙着论文格式修改和debug webvision代码，解决loss收敛过慢的问题
+1. 又看了一遍Distilling the knowledge的论文，然后在网上也查了些资料，发现这种方法对于label偏少或者label之间的关联性很小的时候表现并不能有很大的提高。现在猜想是不是cifar10中10个类别太少且关联性不大的问题。
+2. 正在用cifar100进行再一步实验，代码已经写完，正在进行参数的调整。
+3. 完善了了inceptionv2的webvision代码，且用inceptionv2在imagenet测试集上目前跑出了70.898%的准确率
+4. 正在看PAYING MORE ATTENTION TO ATTENTION:IMPROVING THE PERFORMANCE OF CONVOLUTIONAL NEURAL NETWORKS VIA ATTENTION TRANSFER（ICLR2017）这篇论文讲的是：通过恰当地定义卷积神经网络的注意力，使用这种类型的信息来显著提高学生CNN网络的性能，迫使学生网络模仿一个强大的教师网络的注意力map。
