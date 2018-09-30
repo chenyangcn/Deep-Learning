@@ -1,4 +1,5 @@
 杨晨的一周报告
 --------
-1.看了两篇论文。一篇是介绍和使用center loss，一篇是如何在metric learning中使用triplet loss。  
-2.CUB-200数据集上加了center loss 后的目前最好表现是86.36%  
+1.实现了之前代码的attention区域的可视化（原始的和加stn）的一个83.34% 一个86.67%但是加了stn后照片情况来看直观上没有变化
+2.正在看online action dection论文
+3.跑了个瑕疵检测的模型
