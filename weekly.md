@@ -1,5 +1,3 @@
 杨晨的一周报告
 --------
-1.实现了之前代码的attention区域的可视化（原始的和加stn）的一个83.34% 一个86.67%但是加了stn后照片情况来看直观上没有变化  
-2.正在看online action dection论文  
-3.跑了个瑕疵检测的模型  
+1. 使用bolei zhou的Learning Deep Features for Discriminative Localization论文中的CAM方法去提取正确类别的attention去指导mask生成（对于channel的选择）。现在可以准确找出鸟的区域，且单加attention的准确率为85.9%+
