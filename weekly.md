@@ -1,6 +1,7 @@
 杨晨的一周报告
 --------
-看完了 *online action dection* 知道online action dection 所处理问题的challenge
+看完了 *online action dection* 知道online action dection 有了个大体了解  
+online action dection所面临的challenge:  
 * 部分信息被观察之后就需做出预测（因为我们需要尽快对动作做出识别）。
 * 负样本之间的多样性很大，不应该被误认为正类（因为是在实际过程中，负样本之间的差异性很大）。
 * 动作的起始时间未知，所以不清楚从何时开始将这些动作片段合并。
