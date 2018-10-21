@@ -1,5 +1,11 @@
 杨晨的一周报告
 --------
-1. 完成CUB200的实验  
-2. 瑕疵检测比赛进入复赛  
-3. 对online action dection大体现况调查看了下，且正在看 *online action dection*
+看完了 *online action dection* 知道online action dection 所处理问题的challenge
+* 部分信息被观察之后就需做出预测（因为我们需要尽快对动作做出识别）。
+* 负样本之间的多样性很大，不应该被误认为正类（因为是在实际过程中，负样本之间的差异性很大）。
+* 动作的起始时间未知，所以不清楚从何时开始将这些动作片段合并。
+* 实际生活中有很大的类内之间的差异（不同的人之间相应的动作也会有差异）。  
+其次为了处理正负样本不均匀定义了一种新的评价指标：  
+cPrec = \frac{TP}{TP+\frac{FP}{w}} = \frac{w*TP}{w*TP + FP}  
+cAP = \frac{\sum_k cPrec(k) * I(k)}{P}  
+因为其中模型使用了LSTM，准备重新学习下LSTM
