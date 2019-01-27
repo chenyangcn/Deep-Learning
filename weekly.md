@@ -1,4 +1,5 @@
 杨晨的一周报告
 --------
-1. 看了Online Real-time Multiple Spatiotemporal Action Localisation and Prediction 主要讲的是使用SSD和光流算法一起对video stream去进行预测，其中光流的部分有两种（一种为了Speed，一种为了ACC），SSD是为了让模型可以以高帧率进行预测
-2. 看了Object Detection in Videos with Tubelet Proposal Networks主要讲的是如何生成tublet proposal，并使用temporal的信息对于tublet proposal进行评判以及保证tublet proposal尽可能地diversity
+1. 预训练了一下I3D因为模型太大，数据很多训练了一半便停止了去融入到新模型里
+2. 因为昨天才连上服务器，调BUG跑通了现在，因为在训练集上密集采样，训练的比较慢现在。明天看一下效果
+3. 看了一下“trajectory-convolution-for-action-recognition” 和 “slow-fast”有个不成熟的想法通过光流信息指导RGB特征提取形成一个轨迹追踪
